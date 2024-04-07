@@ -1,19 +1,16 @@
 
 
-=== USAGE INSTRUCTIONS #2 ===
+There are 5 python scripts in the project application for NLP analysis on pdf files:
 
-If you don't think you have the dependencies installed then Pipenv can be used to create a fresh environment with them installed. Install Pipenv by following the instructions here: https://pipenv.pypa.io/en/latest/
+1. Text_summariser_example.py: this is the main script
+2. sentiment_analysis.py: outputs inferred sentiment (one of the 3 states)
+3. Language_detection.py: detects the language of the text in question.
+4. Full_translator.py: performs full length translation using the Google api
+5. named_analysis.py: performs named entity recognition on the text
 
-Having done so, open a terminal and navigate to the directory containing the Pipfile and Pipfile.lock and run:
 
-> pipenv install
+Please ensure that all imported modules in all of the scripts listed above are installed before running. The main script will
+not work otherise.
 
-If you don't have a recent Python 3 available you can execute the following instead:
 
-> pipenv install --three
-
-It may take a little while to populate your fresh environment with depencies. Once this has completed, you can run the following:
-
-> pipenv run jupyter notebook
-
-A browser window should open. Navigate to the file 'challenge.ipynb' for further instructions.
+Joseph Hannon
