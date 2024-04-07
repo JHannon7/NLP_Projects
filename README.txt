@@ -1,22 +1,19 @@
-Subject: "NLP analyser for water-domain passage"
-Author: Joseph Hannon
-
-Background: Looking to extract summaries and key insights from a paragraph of text.
-
-There is one .py scripts in this application:
-
-1. Teamsolution.py
 
 
-There is one .pdf file which contains data that may be needed for the application to run.
+=== USAGE INSTRUCTIONS #2 ===
 
-1. Teamsolution.pdf
+If you don't think you have the dependencies installed then Pipenv can be used to create a fresh environment with them installed. Install Pipenv by following the instructions here: https://pipenv.pypa.io/en/latest/
 
-Modules names used, including versions, can be found in the requirements.txt file
+Having done so, open a terminal and navigate to the directory containing the Pipfile and Pipfile.lock and run:
 
-I/O: The application extracts a paragraph of text from a pdf file and outputs various insights as TS_output.json
+> pipenv install
 
-Exceptional requirements: None
+If you don't have a recent Python 3 available you can execute the following instead:
 
+> pipenv install --three
 
+It may take a little while to populate your fresh environment with depencies. Once this has completed, you can run the following:
 
+> pipenv run jupyter notebook
+
+A browser window should open. Navigate to the file 'challenge.ipynb' for further instructions.
