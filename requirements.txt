@@ -1,0 +1,12 @@
+Theis modules need to be installed with the following version:
+
+spacy==3.0.1
+
+These modules can be installed with any version:
+
+fitz
+spacy.lang.en.stop_words
+nltk.corpus
+heapq
+collections
+
